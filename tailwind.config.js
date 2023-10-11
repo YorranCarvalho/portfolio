@@ -1,8 +1,22 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{html,js}"],
+export default  {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    colors: {
+      transparent: "transparent",
+      white: '#fff',
+      black: '#000',
+      grayContainer: '#343434',
+      grayCard: '#151515',
+
+      royalBlue: {
+        "50": "#8787fb",
+        "100": "#6565ff",
+        "200": "#4040fb",
+        "300": "#0404e2",
+        "500": "#0303b5",
+      }
+    }
   },
   plugins: [],
 }
