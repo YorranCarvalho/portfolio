@@ -4,11 +4,9 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import CustomCard from '../../../../Components/Card';
 import './style.css'
-import { CSSProperties } from 'react';
 
 interface SocialStructureProps {
     href: string;
-    style?: CSSProperties;
     children?: React.ReactNode;
 }
 
