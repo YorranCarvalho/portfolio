@@ -8,6 +8,7 @@ export default  {
       black: '#000',
       grayContainer: '#343434',
       grayCard: '#151515',
+      grayDcpt: '#ccc',
 
       royalBlue: {
         "50": "#8787fb",

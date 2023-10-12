@@ -4,7 +4,7 @@ interface DescriptionProps {
 
 const Description = ({children}: DescriptionProps) => {
     return (
-        <div className="text-base text-white flex justify-start pl-8 pt-8 pb-16 pr-8">
+        <div className="text-base text-grayDcpt flex justify-start pl-14 pt-8 pb-10 pr-14">
             {children}
         </div>
     )

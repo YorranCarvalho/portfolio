@@ -32,7 +32,7 @@ const InformationStructure = ({title, information, icon}: InformationStructurePr
                     </div>  
                 </CustomCard>
                 <div className="flex flex-col pr-28">
-                    <div className="text-xs text-white">
+                    <div className="text-xs text-grayDcpt">
                         {title}
                     </div>
                     <div className="text-white">
