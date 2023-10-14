@@ -6,9 +6,9 @@ export default  {
       transparent: "transparent",
       white: '#fff',
       black: '#000',
-      grayContainer: '#343434',
+      grayContainer: '#292929',
       grayCard: '#151515',
-      grayDcpt: '#ccc',
+      grayDcpt: '#999',
 
       royalBlue: {
         "50": "#8787fb",

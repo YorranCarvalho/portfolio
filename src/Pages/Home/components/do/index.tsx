@@ -12,13 +12,13 @@ const DoInformations = ({title, description, icon}: DoInformationsProps) => {
     const handleIcon = (icone: string) => {
         switch (icone) {
             case 'WEB': 
-                return <LanguageIcon style={{color: '#fff', fontSize: '35px'}}/>
+                return <LanguageIcon style={{color: '#1877F2', fontSize: '35px'}}/>
             case 'DESKTOP':
-                return <DesktopWindowsOutlinedIcon style={{color: '#fff', fontSize: '35px'}}/>
+                return <DesktopWindowsOutlinedIcon style={{color: '#1877F2', fontSize: '35px'}}/>
         }
     }
     return (
-        <CustomCard className="bg-grayContainer rounded-xl border-2 border-white w-2/5">
+        <CustomCard className="rounded-xl border-2 border-grayContainer w-2/5">
             <div className="flex p-2">
                 <div>
                     {handleIcon(icon)}
@@ -36,8 +36,16 @@ const DoInformations = ({title, description, icon}: DoInformationsProps) => {
 
 const Do = () => {
     return (
-        <div className="flex flex-wrap justify-center pt-8 gap-11">
+        <div className="flex flex-wrap justify-center pt-8 gap-11 mb-12">
             <DoInformations 
+            title={"Desenvolvimento Web"} 
+            description={"Trabalho com desenvolvimento web, tais como landing pages, Portfólios, Sites Informativos, etc."} 
+            icon={"WEB"}/>
+            <DoInformations 
+            title={"Softwares para Desktop"} 
+            description={"Trabalho com desenvolvimento web, tais como landing pages, Portfólios, Sites Informativos, etc."} 
+            icon={"DESKTOP"}/>
+             <DoInformations 
             title={"Desenvolvimento Web"} 
             description={"Trabalho com desenvolvimento web, tais como landing pages, Portfólios, Sites Informativos, etc."} 
             icon={"WEB"}/>

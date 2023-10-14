@@ -15,7 +15,7 @@ const SocialStructure = ({href, children}: SocialStructureProps) => {
         <div>
             <a href={href}>
                 <CustomCard
-                className='cardColor rounded-md bg-grayCard flex justify-center items-center p-1'
+                className='cardColor rounded-md bg-grayContainer flex justify-center items-center p-1'
                 >
                     {children}
                 </CustomCard>
