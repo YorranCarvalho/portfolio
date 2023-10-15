@@ -5,7 +5,7 @@ import Do from "../do";
 
 const About = () => {
     return (
-        <CustomContainer className='bg-grayCard rounded-3xl w-2/5 shadow-md mt-44'>
+        <CustomContainer className='bg-grayCard rounded-3xl w-2/5 shadow-md'>
             <div className=''>
                 <Title>
                     Sobre Mim

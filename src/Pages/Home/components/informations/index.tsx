@@ -25,13 +25,13 @@ const InformationStructure = ({title, information, icon}: InformationStructurePr
         }
     }
     return (
-            <div className="flex items-center gap-2 p-2 border-b-2 border-grayCard">
+            <div className="flex items-center gap-2 p-2 border-b-2 border-grayDcpt">
                 <CustomCard className="bg-black rounded-lg hover:bg-royalBlue-100 ease-in-out transition 300">
                     <div className="flex justify-center items-center p-2" style={{color: 'white', fontSize: '30px'}}>
                         {handleIcon(icon) }
                     </div>  
                 </CustomCard>
-                <div className="flex flex-col pr-28">
+                <div className="flex flex-col pr-5">
                     <div className="text-xs text-grayDcpt">
                         {title}
                     </div>
@@ -46,8 +46,8 @@ const InformationStructure = ({title, information, icon}: InformationStructurePr
 
 const Information = () => {
     return (
-        <div className="p-5">
-            <CustomContainer className="bg-grayContainer rounded-2xl p-5">
+        <div className="pt-5 pb-10 pl-10 pr-10">
+            <CustomContainer className="bg-grayContainer rounded-2xl p-8">
                 <InformationStructure title={"Telefone"} information={"+55 091 980970977"} icon={'PHONE'}/>
                 <InformationStructure title={"Localização"} information={"Belém - PA, BRASIL"} icon={'LOCATION'}/>
                 <InformationStructure title={"E-Mail"} information={"yorrancarvalho18@gmail.com"} icon={'MAIL'}/>
