@@ -8,7 +8,7 @@ interface CustomContainerProps {
 
 const CustomContainer = ({className, children, style}: CustomContainerProps) => {
     return (
-        <div 
+        <div
         className={className} 
         style={style}
         >

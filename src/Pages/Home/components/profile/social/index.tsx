@@ -2,7 +2,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import CustomCard from '../../../../Components/Card';
+import CustomCard from '../../../../../Components/Card';
 import './style.css'
 
 interface SocialStructureProps {
@@ -15,7 +15,7 @@ const SocialStructure = ({href, children}: SocialStructureProps) => {
         <div>
             <a href={href}>
                 <CustomCard
-                className='cardColor rounded-md bg-grayCard flex justify-center items-center p-1'
+                className='cardColor rounded-md bg-grayContainer flex justify-center items-center p-1'
                 >
                     {children}
                 </CustomCard>
