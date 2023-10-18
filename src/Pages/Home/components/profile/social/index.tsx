@@ -2,7 +2,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import CustomCard from '../../../../Components/Card';
+import CustomCard from '../../../../../Components/Card';
 import './style.css'
 
 interface SocialStructureProps {

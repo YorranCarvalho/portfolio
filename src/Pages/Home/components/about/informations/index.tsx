@@ -1,9 +1,9 @@
-import CustomCard from "../../../../Components/Card"
+import CustomCard from "../../../../../Components/Card"
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import MailIcon from '@mui/icons-material/Mail';
 import DateRangeIcon from '@mui/icons-material/DateRange';
-import CustomContainer from "../../../../Components/Container";
+import CustomContainer from "../../../../../Components/Container";
 
 interface InformationStructureProps {
     title: string;

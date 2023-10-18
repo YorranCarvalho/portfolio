@@ -1,10 +1,10 @@
 import CustomContainer from "../../../../Components/Container";
 import imageProfile from '../../../../assets/profileImage.jpg'
 import CustomSVG from "../../../../Components/SVG";
-import Cargo from "../cargo";
-import Information from "../informations";
-import Name from "../name";
-import Social from "../social";
+import Cargo from "./cargo";
+import Information from "../about/informations";
+import Name from "./name";
+import Social from "./social";
 
 
 const Profile = () => {

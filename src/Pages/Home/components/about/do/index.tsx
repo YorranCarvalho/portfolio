@@ -1,4 +1,4 @@
-import CustomCard from "../../../../Components/Card";
+import CustomCard from "../../../../../Components/Card";
 import LanguageIcon from '@mui/icons-material/Language';
 import DesktopWindowsOutlinedIcon from '@mui/icons-material/DesktopWindows';
 
@@ -38,14 +38,6 @@ const Do = () => {
     return (
         <div className="flex flex-wrap justify-center pt-8 gap-11 mb-12">
             <DoInformations 
-            title={"Desenvolvimento Web"} 
-            description={"Trabalho com desenvolvimento web, tais como landing pages, Portfólios, Sites Informativos, etc."} 
-            icon={"WEB"}/>
-            <DoInformations 
-            title={"Softwares para Desktop"} 
-            description={"Trabalho com desenvolvimento web, tais como landing pages, Portfólios, Sites Informativos, etc."} 
-            icon={"DESKTOP"}/>
-             <DoInformations 
             title={"Desenvolvimento Web"} 
             description={"Trabalho com desenvolvimento web, tais como landing pages, Portfólios, Sites Informativos, etc."} 
             icon={"WEB"}/>

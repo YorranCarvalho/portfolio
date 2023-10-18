@@ -1,4 +1,4 @@
-import CustomCard from "../../../../Components/Card"
+import CustomCard from "../../../../../Components/Card"
 
 const Cargo = () => {
     return (
